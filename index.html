@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container">
+		<h1>KAMIEŃ &#183; PAPIER &#183; NOŻYCE</h1>
+		<div id="results">
+			<div id="player-score">
+				<h2>GRACZ</h2>
+				<p>0</p>
+			</div>
+			<div id="computer-score">
+				<h2>KOMPUTER</h2>
+				<p>0</p>
+			</div>
+		</div>
 		<div id="buttons">
-			<button id="play-rock">Kamień</button>
-			<button id="play-paper">Papier</button>
-			<button id="play-scissors">Nożyce</button>
+			<p>Wybierz swój ruch:</p>
+			<button id="play-rock"><i class="fas fa-hand-rock"></i></button>
+			<button id="play-paper"><i class="fas fa-hand-paper"></i></button>
+			<button id="play-scissors"><i class="fas fa-hand-scissors"></i></button>
 		</div>
 		<div id="messages"></div>
 	</div>

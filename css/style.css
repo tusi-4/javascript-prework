@@ -1,0 +1,62 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #30336b;
+	font-family: sans-serif;
+	color: #dff9fb;
+}
+.container {
+	max-width: 1200px;
+	max-height: 100vh;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	font-size: 30px;
+	color: #ffbe76;
+	margin: 48px auto;
+}
+#results {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+h2 {
+	font-size: 48px;
+	margin: 30px auto 0 auto;
+}
+#results p {
+	font-size: 60px;
+	color: #f0932b;
+	font-weight: bold;
+	margin: 0;
+}
+#buttons p {
+	font-size: 18px;
+	margin: 60px auto 18px auto;
+}
+#buttons button {
+	background: none;
+	border: 0;
+}
+#buttons i {
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
+	font-size: 120px;
+	color: #130f40;
+	background-color: #ffbe76;
+	border-radius: 50%;
+	margin: 36px 18px;
+}
+#buttons i:hover {
+	color: #f0932b;
+	background-color: #dff9fb;
+	cursor: pointer;
+}
+#messages {
+	font-size: 18px;
+	line-height: 1.7;
+}
